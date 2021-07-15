@@ -38,3 +38,15 @@ header #headerNav {
     color: rgba(95,99,104,1);
 }
 
+#googleLogo {
+    display: block;
+    margin: auto;
+    margin-top: 20vh;
+}
+ @media (max-height: 250px) {
+    #googleLogo {
+        display: block;
+        margin: auto;
+        margin-top: 0;
+    }
+ }
