@@ -1,0 +1,40 @@
+header #headerNav {
+    display: flex;
+    margin-left: auto;
+    padding: 5px 10px;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerNav a:link {
+    display: flex;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+#headerNav a:hover {
+    display: flex;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: underline;
+}
+
+#signInButton {
+    display: flex;
+    background-color: rgba(26, 115, 232, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 25px;
+    font-size: 14px;
+}
+
+.material-icons {
+    display: flex;
+    color: rgba(95,99,104,1);
+}
+
